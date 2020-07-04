@@ -15,13 +15,14 @@ body {
 
 
 #header-nav {
-    background-color: #5D6D7E;
+    background-color: #3ACDD0;
     border-radius: 0;
     border: 0;
+    /*height: 180px*/;
 }
 
 #logo-img {
-  background: url('../images/logo_200x200.jpg') no-repeat;
+  background: url('../images/img-logo.jpeg') no-repeat;
   width:200px;
   height:200px;
   margin: 10px 20px 10px;
@@ -32,7 +33,7 @@ body {
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: pink;
+    background-color: #212F3C;
 }
 
 .navbar-collapse {
@@ -44,17 +45,18 @@ body {
 }
 
 .navbar-brand h1 {
-  color: rgb(255, 255, 255);
-  font-size: 3em;
+  color: black;
+  font-size: 4em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 12px;
-  margin-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
   line-height: .75;
+  font-family: 'Caveat', cursive;
 }
 
-.navbar-nav li a {
-  
+
+.navbar-nav li a {  
   line-height: 76px;
   height: 76px;
   padding-top: 0;
@@ -68,13 +70,13 @@ body {
 }
 
 #nav-list {
-    background-color: #AEB6BF;
-    margin-top: 10px;
+    background-color: #6179e1;
+   
 }
 
 
 #nav-list a {
-    /*text-align: center;*/
+    text-align: center;
     font-weight: bolder;
     font-size: 2em;
     color: #282828;
@@ -82,11 +84,16 @@ body {
 
 #nav-list a:hover {
     color: #202020;
-    background-color: #ffffff;
+    background-color: #D5DBDB;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
+    border: 5px solid #583AD0;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #583AD0;
+    box-shadow: 4px 1px black;
 }
 /** end header**/
 
@@ -105,23 +112,37 @@ body {
 }
 
 #main-content h3 {
-    font-size: 3.5em;
-    font-weight: bold;
+    font-size: 3em;
     margin-bottom: 1em;
 }
 
 #home-tiles p {
-  font-size: 1.75em;
+  font-size: 1.5em;
 }
 
 #japan-tile, #spain-tile, #russia-tile {
     width: 100%;
     padding: 20px;
-    background-color: rgba(224, 255, 255, 0.8);
+    background-color: #24353C;
     margin-bottom: 60px;
-    box-shadow: 0 0 50px #d6f1f1;
+    box-shadow: 0 0 50px #CF721B;
     border: 1px solid white;
+    color: #95CCE3;
 }
 
+#top-heading {
+  size: 18px;
+  color:#1C65AB;
+  text-shadow: 0 1px 10px white;
+  font-family: 'Roboto Slab', serif;
+}
 
 /** END HOME PAGE**/
+
+@media (max-width:768px){
+  .navbar-brand h1 {
+    font-size: 6vw;
+    margin-bottom: 2em;
+  }
+}
+
