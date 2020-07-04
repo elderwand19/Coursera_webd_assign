@@ -1,4 +1,4 @@
-*This is the readme file for the Coursera HTML, CSS, Java course.* <br/>
+*This is the readme file for the Coursera HTML, CSS, JavaScript course.* <br/>
 1.Assignment 2 is completed, tap below to visit the page. <br/>
 [Assignment 2 solution](https://elderwand19.github.io/coursera_webd_assign/module2-solutions/index.html) <br/>
 
