@@ -6,7 +6,7 @@
 2.Assignment 3 is completed, tap below to visit the page. <br/>
 [Assignment 3](https://elderwand19.github.io/coursera_webd_assign/module3-sol/index.html) <br/>
 
-3. Assignment 4 is comoleted, tap below to visit the page. <br/>
-   Dont forget to go to inspector tab for checking the console output. </br>
-   [Assignment 4](https://elderwand19.github.io/coursera_webd_assign/module4-sol/harder/index.html) 
+
+3. Assignment 4 is completed, tap below to visit the page. </br>
+[Assignment 4](https://elderwand19.github.io/coursera_webd_assign/module4-sol/harder/index.html) 
 
